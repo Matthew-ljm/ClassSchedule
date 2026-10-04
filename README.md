@@ -79,7 +79,7 @@ ntplib
 ### 方式二：源码直接运行（开发者、二次修改）
 1. 克隆仓库
 ```bash
-git clone [https://github.com/Matthew-ljm/ClassSchedule.git](https://github.com/Matthew-ljm/ClassSchedule.git)
+git clone https://github.com/Matthew-ljm/ClassSchedule.git
 cd ClassSchedule
 ```
 2. 运行主程序
