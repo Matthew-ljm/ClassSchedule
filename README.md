@@ -5,7 +5,7 @@
 
 > 最新稳定版本：**v3.1.1**｜仅支持 Windows10 / Windows11 x64（其他系统暂未适配）
 
-[![Release](https://img.shields.io/github/release/Matthew-ljm/ClassSchedule.svg)](https://github.com/Matthew-ljm/ClassSchedule/releases)
+[![Release](https://img.shields.io/github/release/Matthew-ljm/ClassSchedule.svg?cache_seconds=0)](https://github.com/Matthew-ljm/ClassSchedule/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python‑3.10+-blue)](.)
 
