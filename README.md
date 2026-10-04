@@ -82,7 +82,11 @@ ntplib
 git clone https://github.com/Matthew-ljm/ClassSchedule.git
 cd ClassSchedule
 ```
-2. 运行主程序
+2.安装依赖
+```bash
+pip install PyQt6 psutil requests pynput pywin32 ntplib
+```
+3. 运行主程序
 ```bash
 python 课程表进度条.py
 ```
@@ -141,7 +145,7 @@ GET请求参数 `class_num=班级数字`
 > `day1`代表周一，`day7`代表周日；支持单双周语法 `数学(单)/英语(双)`
 
 ## ⚠️ 重要风险提示
-1. **class‑over自动下课插件风险**：该功能会批量结束系统进程，**仅限学校多媒体教室/机房公用电脑，家用电脑严禁开启**；务必维护好`sys_whitelist.txt`白名单，防止误杀需要保留的软件。
+1. **class‑over自动下课插件风险**：该功能会批量结束系统进程，**仅限学校多媒体教室/机房公用电脑，家用电脑不建议开启**；务必维护好`sys_whitelist.txt`白名单，防止误杀需要保留的软件。
 2. v3.1.1 目录架构发生重大变更，旧版本程序、配置文件不兼容。
 3. 若要真正退出软件，请使用快捷键 `Ctrl + Q`，直接关闭窗口只会被保护器自动重新拉起。
 4. 开机自启依靠Windows计划任务最高权限运行，部分杀毒软件会拦截。
