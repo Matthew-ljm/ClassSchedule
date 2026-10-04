@@ -121,7 +121,7 @@ GET请求参数 `class_num=班级数字`
     }
 }
 ```
-> **如果你需要，我可以为你开放专属 API 接口服务，统一云端编辑页：[M-Code官网页面](https://test.m-code.top/edit-schedule.html/ "点击跳转编辑页")**。
+> **如果你需要，可以为你开放专属 API 接口服务，统一云端编辑页：[M-Code官网页面](https://test.m-code.top/edit-schedule.html/ "点击跳转编辑页")**。
 
 ### 本地课表JSON格式示例
 ```json
