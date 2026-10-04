@@ -67,7 +67,7 @@ ntplib
 
 ## 🚀 使用方式
 ### 方式一：下载Release打包exe（普通用户推荐）
-前往 [Releases](https://github.com/xxx/ClassSchedule/releases) 下载最新版本安装包
+前往 [Releases](https://github.com/Matthew-ljm/ClassSchedule/releases) 下载最新版本安装包
 1. 解压后自动运行 `installer.exe`，脚本自动申请管理员权限。
 2. 根据控制台提示选择：是否开启自动下课插件、是否安装座位表插件，填写班级、各类延时参数。
 3. 可选导入座位表JSON文件。
