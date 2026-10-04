@@ -1,0 +1,10 @@
+{
+    "class": 4,
+    "class_over_wait_time": 30,
+    "class_over_countdown": 10,
+    "local_schedule_file": "schedule.json",
+    "class_over_status": false,
+    "api_url": "https://test.m-code.top/api/class-schedule/",
+    "protector_start_delay": 0,
+    "absolute_path": false
+}

@@ -1,0 +1,1 @@
+cp ~/Desktop/课程表进度条.desktop ~/.config/autostart/ && chmod +x ~/.config/autostart/*.desktop
