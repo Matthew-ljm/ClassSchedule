@@ -1,6 +1,8 @@
 # ClassSchedule｜课程表进度条
 > 面向中小学多媒体教室的悬浮课表桌面工具｜MIT License
+
 > 历史版本：**v2.1.6**｜支持 Windows10 / Windows11 x64 及 国产统信系统
+
 > 最新稳定版本：**v3.1.1**｜仅支持 Windows10 / Windows11 x64（其他系统暂未适配）
 
 [![Release](https://img.shields.io/github/release/Matthew-ljm/ClassSchedule.svg)](https://github.com/Matthew-ljm/ClassSchedule/releases)
