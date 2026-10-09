@@ -162,7 +162,7 @@ GET请求参数 `class_num=班级数字`
 2. 代码遵循现有编码风格；UI相关修改需要保证Windows平台兼容性。
 
 反馈渠道：
-- 网页反馈：https://m‑code.top/feedback.html
+- 网页反馈：[https://m-code.top/feedback.html](https://m-code.top/feedback.html)
 - 邮箱：contact@m‑code.top
 
 ## 📄 License
