@@ -5,10 +5,18 @@
 
 > 最新稳定版本：**v3.1.1**｜仅支持 Windows10 / Windows11 x64（其他系统暂未适配）
 
+<<<<<<< Updated upstream
 [![Release](https://svg.hamm.cn/gitee.svg?user=matthew-ljm&project=class-schedule&type=release&logo=gitee)](https://gitee.com/matthew-ljm/class-schedule/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue?logo=mit)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10+-blue?logo=python)](.)
 > 仓库地址：[https://gitee.com/matthew-ljm/class-schedule](https://gitee.com/matthew-ljm/class-schedule)
+=======
+[![Release](https://img.shields.io/github/release/Matthew-ljm/ClassSchedule.svg?cache_seconds=0)](https://github.com/Matthew-ljm/ClassSchedule/releases)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python‑3.10+-blue)](.)
+
+> 仓库地址：[https://github.com/Matthew-ljm/ClassSchedule](https://github.com/Matthew-ljm/ClassSchedule)
+>>>>>>> Stashed changes
 > 作者：刘俊铭
 
 ## 📖 项目概述
