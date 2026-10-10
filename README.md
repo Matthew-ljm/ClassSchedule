@@ -5,7 +5,7 @@
 
 > 最新稳定版本：**v3.1.1**｜仅支持 Windows10 / Windows11 x64（其他系统暂未适配）
 
-[![Release](https://img.shields.io/github/release/Matthew-ljm/ClassSchedule.svg)](https://github.com/Matthew-ljm/ClassSchedule/releases)
+[![Release](https://img.shields.io/github/release/Matthew-ljm/ClassSchedule.svg?cache_seconds=0)](https://github.com/Matthew-ljm/ClassSchedule/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python‑3.10+-blue)](.)
 
@@ -18,7 +18,7 @@
 
 项目不止单一悬浮窗口程序，是一整套完整套件：包含主UI程序、进程保护器、自动下课清理插件、座位表扩展插件、图形化设置面板、自动更新组件、一键安装程序。
 
-> 设计初衷：解决多媒体教室缺少直观课表提示，动态调课，~~下课需要教师手动关闭一大堆软件~~为了防止老师拖堂的痛点。
+> 设计初衷：解决多媒体教室缺少直观课表提示，动态调课，~~下课需要教师手动关闭一大堆软件~~老师拖堂的痛点。
 > ⚠️ 自动下课清理插件仅适合**学校公共机房/教室电脑，不建议家用电脑开启**。
 
 ## ✨ 项目整体特性
@@ -82,7 +82,11 @@ ntplib
 git clone https://github.com/Matthew-ljm/ClassSchedule.git
 cd ClassSchedule
 ```
-2. 运行主程序
+2.安装依赖
+```bash
+pip install PyQt6 psutil requests pynput pywin32 ntplib
+```
+3. 运行主程序
 ```bash
 python 课程表进度条.py
 ```
@@ -121,7 +125,7 @@ GET请求参数 `class_num=班级数字`
     }
 }
 ```
-> **如果你需要，我可以为你开放专属 API 接口服务，统一云端编辑页：[M-Code官网页面](https://test.m-code.top/edit-schedule.html/ "点击跳转编辑页")**。
+> **如果你需要，可以为你开放专属 API 接口服务，统一云端编辑页：[M-Code官网页面](https://test.m-code.top/edit-schedule.html/ "点击跳转编辑页")**。
 
 ### 本地课表JSON格式示例
 ```json
@@ -141,7 +145,7 @@ GET请求参数 `class_num=班级数字`
 > `day1`代表周一，`day7`代表周日；支持单双周语法 `数学(单)/英语(双)`
 
 ## ⚠️ 重要风险提示
-1. **class‑over自动下课插件风险**：该功能会批量结束系统进程，**仅限学校多媒体教室/机房公用电脑，家用电脑严禁开启**；务必维护好`sys_whitelist.txt`白名单，防止误杀需要保留的软件。
+1. **class‑over自动下课插件风险**：该功能会批量结束系统进程，**仅限学校多媒体教室/机房公用电脑，家用电脑不建议开启**；务必维护好`sys_whitelist.txt`白名单，防止误杀需要保留的软件。
 2. v3.1.1 目录架构发生重大变更，旧版本程序、配置文件不兼容。
 3. 若要真正退出软件，请使用快捷键 `Ctrl + Q`，直接关闭窗口只会被保护器自动重新拉起。
 4. 开机自启依靠Windows计划任务最高权限运行，部分杀毒软件会拦截。
@@ -158,7 +162,7 @@ GET请求参数 `class_num=班级数字`
 2. 代码遵循现有编码风格；UI相关修改需要保证Windows平台兼容性。
 
 反馈渠道：
-- 网页反馈：https://m‑code.top/feedback.html
+- 网页反馈：[https://m-code.top/feedback.html](https://m-code.top/feedback.html)
 - 邮箱：contact@m‑code.top
 
 ## 📄 License
