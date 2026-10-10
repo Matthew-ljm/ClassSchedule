@@ -5,18 +5,11 @@
 
 > 最新稳定版本：**v3.1.1**｜仅支持 Windows10 / Windows11 x64（其他系统暂未适配）
 
-<<<<<<< Updated upstream
-[![Release](https://svg.hamm.cn/gitee.svg?user=matthew-ljm&project=class-schedule&type=release&logo=gitee)](https://gitee.com/matthew-ljm/class-schedule/releases)
-[![License](https://img.shields.io/badge/license-MIT-blue?logo=mit)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.10+-blue?logo=python)](.)
-> 仓库地址：[https://gitee.com/matthew-ljm/class-schedule](https://gitee.com/matthew-ljm/class-schedule)
-=======
 [![Release](https://img.shields.io/github/release/Matthew-ljm/ClassSchedule.svg?cache_seconds=0)](https://github.com/Matthew-ljm/ClassSchedule/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python‑3.10+-blue)](.)
 
 > 仓库地址：[https://github.com/Matthew-ljm/ClassSchedule](https://github.com/Matthew-ljm/ClassSchedule)
->>>>>>> Stashed changes
 > 作者：刘俊铭
 
 ## 📖 项目概述
@@ -74,7 +67,7 @@ ntplib
 
 ## 🚀 使用方式
 ### 方式一：下载Release打包exe（普通用户推荐）
-前往 [Releases](https://gitee.com/matthew-ljm/class-schedule/releases) 下载最新版本安装包
+前往 [Releases](https://github.com/Matthew-ljm/ClassSchedule/releases) 下载最新版本安装包
 1. 解压后自动运行 `installer.exe`，脚本自动申请管理员权限。
 2. 根据控制台提示选择：是否开启自动下课插件、是否安装座位表插件，填写班级、各类延时参数。
 3. 可选导入座位表JSON文件。
@@ -86,8 +79,8 @@ ntplib
 ### 方式二：源码直接运行（开发者、二次修改）
 1. 克隆仓库
 ```bash
-git clone https://gitee.com/matthew-ljm/class-schedule.git
-cd class-schedule
+git clone https://github.com/Matthew-ljm/ClassSchedule.git
+cd ClassSchedule
 ```
 2.安装依赖
 ```bash
