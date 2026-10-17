@@ -1,0 +1,117 @@
+{
+    "class": 4,
+    "local_schedule_file": "schedule.json",
+    "class_over_status": false,
+    "api_url": "https://test.m-code.top/api/class-schedule/",
+    "protector_start_delay": 0,
+    "absolute_path": false,
+    "custom_class_over_rule": [
+        {
+            "name": "自动下课",
+            "wait_time": 30,
+            "trigger_now_course": [
+                "语文",
+                "数学",
+                "英语",
+                "物理",
+                "地理",
+                "道德与法治",
+                "生物",
+                "化学",
+                "历史",
+                "政治",
+                "道法",
+                "语文晚补",
+                "数学晚补",
+                "英语晚补",
+                "物理晚补"
+            ],
+            "trigger_next_course": [
+                "课间",
+                "休息",
+                "课间操",
+                "眼操",
+                "午休",
+                "夕检",
+                "社团"
+            ],
+            "main_window": [
+                {
+                    "two_button_tip": [
+                        {
+                            "id": "1",
+                            "title": [
+                                {
+                                    "text": "$$秒后自动下课",
+                                    "bc": "#fff",
+                                    "tc": "#e53935",
+                                    "countdown": 10
+                                }
+                            ],
+                            "left": [
+                                {
+                                    "text": "现在下课",
+                                    "bc": "#e53935",
+                                    "tc": "#fff",
+                                    "cmd": "destroy",
+                                    "jump_to": "2"
+                                }
+                            ],
+                            "right": [
+                                {
+                                    "text": "拖堂两分钟",
+                                    "bc": "#1976d2",
+                                    "tc": "#fff",
+                                    "cmd": "sleep 120",
+                                    "jump_to": "2",
+                                    "popup": true,
+                                    "popup_times": 3
+                                }
+                            ],
+                            "cmd": "destroy",
+                            "jump_to": "2"
+                        }
+                    ],
+                    "kill_process": [
+                        {
+                            "id": "2",
+                            "title": [
+                                {
+                                    "text": "正在清理进程",
+                                    "bc": "#fff",
+                                    "tc": "#222222"
+                                }
+                            ],
+                            "cmd": "destroy",
+                            "jump_to": "3"
+                        }
+                    ],
+                    "single_tip": [
+                        {
+                            "id": "3",
+                            "title": [
+                                {
+                                    "text": "进程清理完毕",
+                                    "bc": "#fff",
+                                    "tc": "#2e7d32"
+                                }
+                            ],
+                            "button": [
+                                {
+                                    "text": "$$s后自动关闭",
+                                    "countdown": 3,
+                                    "bc": "#1976d2",
+                                    "tc": "#fff",
+                                    "cmd": "destroy",
+                                    "jump_to": "end"
+                                }
+                            ],
+                            "cmd": "destroy",
+                            "jump_to": "end"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
