@@ -1,0 +1,1 @@
+dconf write /org/deepin/window-rules/force-always-on-top "['课表进度条']"
